@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Sirene de alarme">
+  <defs>
+    <linearGradient id="d1Bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#eef0f4"/>
+    </linearGradient>
+    <pattern id="d1Grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#e3e6ec" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="d1Glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#D20005" stop-opacity=".18"/><stop offset="1" stop-color="#D20005" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="d1Box" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a4049"/><stop offset="1" stop-color="#16191e"/>
+    </linearGradient>
+    <linearGradient id="d1Red" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ED151A"/><stop offset="1" stop-color="#9E0003"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#d1Bg)"/>
+  <rect width="800" height="600" fill="url(#d1Grid)"/>
+  <circle cx="400" cy="300" r="260" fill="url(#d1Glow)"/>
+  <g fill="none" stroke="#D20005" stroke-width="7" stroke-linecap="round" opacity=".5">
+    <path d="M150 300a250 250 0 0 1 500 0"/>
+    <path d="M205 300a195 195 0 0 1 390 0"/>
+  </g>
+  <ellipse cx="400" cy="470" rx="140" ry="20" fill="#0b0d10" opacity=".1"/>
+  <g transform="translate(400 300)">
+    <path d="M-130-40h260l-40 250H-90Z" fill="url(#d1Box)"/>
+    <rect x="-130" y="-70" width="260" height="46" rx="16" fill="#2b3038"/>
+    <rect x="-150" y="-70" width="300" height="18" rx="9" fill="#3a4049"/>
+    <path d="M-90-40h180l-26 120H-64Z" fill="#0e1014"/>
+    <path d="M-70-30h140l-20 100h-100Z" fill="url(#d1Red)"/>
+    <path d="M-70-30h140l-8 40h-124Z" fill="#ffffff" opacity=".15"/>
+    <circle cx="0" cy="-14" r="10" fill="#ffffff" opacity=".85"/>
+  </g>
+  <g fill="#D20005" opacity=".9">
+    <circle cx="180" cy="150" r="7"/><circle cx="620" cy="150" r="7"/><circle cx="150" cy="430" r="7"/><circle cx="650" cy="430" r="7"/>
+  </g>
+</svg>

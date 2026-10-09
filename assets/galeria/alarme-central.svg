@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Central de alarme com teclado">
+  <defs>
+    <linearGradient id="cBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#eef0f4"/>
+    </linearGradient>
+    <pattern id="cGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#e3e6ec" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="cGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#D20005" stop-opacity=".16"/><stop offset="1" stop-color="#D20005" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cPanel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2b3038"/><stop offset="1" stop-color="#14171c"/>
+    </linearGradient>
+    <linearGradient id="cScreen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0a1f0e"/><stop offset="1" stop-color="#041007"/>
+    </linearGradient>
+    <linearGradient id="cRed" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ED151A"/><stop offset="1" stop-color="#9E0003"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#cBg)"/>
+  <rect width="800" height="600" fill="url(#cGrid)"/>
+  <circle cx="620" cy="160" r="220" fill="url(#cGlow)"/>
+  <ellipse cx="400" cy="500" rx="170" ry="26" fill="#0b0d10" opacity=".1"/>
+  <g transform="translate(400 300)">
+    <rect x="-190" y="-230" width="380" height="460" rx="30" fill="url(#cPanel)"/>
+    <rect x="-190" y="-230" width="380" height="120" rx="30" fill="#383e47"/>
+    <rect x="-160" y="-200" width="320" height="60" rx="12" fill="url(#cScreen)"/>
+    <text x="0" y="-160" text-anchor="middle" font-family="Consolas, monospace" font-size="30" fill="#43e06b" letter-spacing="6">SISTEMA OK</text>
+    <circle cx="-140" cy="-118" r="9" fill="#43e06b"/>
+    <circle cx="-110" cy="-118" r="9" fill="#f0b429"/>
+    <circle cx="-80" cy="-118" r="9" fill="#4b515c"/>
+    <g>
+      <rect x="-150" y="-120" width="300" height="300" rx="22" fill="#20242b"/>
+      <g fill="#e7eaf0">
+        <circle cx="-92" cy="-56" r="26" fill="#2c313a"/><circle cx="0" cy="-56" r="26" fill="#2c313a"/><circle cx="92" cy="-56" r="26" fill="#2c313a"/>
+        <circle cx="-92" cy="20" r="26" fill="#2c313a"/><circle cx="0" cy="20" r="26" fill="#2c313a"/><circle cx="92" cy="20" r="26" fill="#2c313a"/>
+        <circle cx="-92" cy="96" r="26" fill="#2c313a"/><circle cx="0" cy="96" r="26" fill="#2c313a"/><circle cx="92" cy="96" r="26" fill="#2c313a"/>
+      </g>
+      <text x="-92" y="-47" text-anchor="middle" font-family="Inter, sans-serif" font-size="26" fill="#fff">1</text>
+      <text x="0" y="-47" text-anchor="middle" font-family="Inter, sans-serif" font-size="26" fill="#fff">2</text>
+      <text x="92" y="-47" text-anchor="middle" font-family="Inter, sans-serif" font-size="26" fill="#fff">3</text>
+      <text x="-92" y="29" text-anchor="middle" font-family="Inter, sans-serif" font-size="26" fill="#fff">4</text>
+      <text x="0" y="29" text-anchor="middle" font-family="Inter, sans-serif" font-size="26" fill="#fff">5</text>
+      <text x="92" y="29" text-anchor="middle" font-family="Inter, sans-serif" font-size="26" fill="#fff">6</text>
+      <text x="-92" y="105" text-anchor="middle" font-family="Inter, sans-serif" font-size="26" fill="#fff">7</text>
+      <text x="0" y="105" text-anchor="middle" font-family="Inter, sans-serif" font-size="26" fill="#fff">8</text>
+      <text x="92" y="105" text-anchor="middle" font-family="Inter, sans-serif" font-size="26" fill="#fff">9</text>
+    </g>
+    <rect x="-150" y="196" width="300" height="44" rx="22" fill="url(#cRed)"/>
+    <circle cx="-120" cy="218" r="8" fill="#fff" opacity=".85"/>
+  </g>
+</svg>

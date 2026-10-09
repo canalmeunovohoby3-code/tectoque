@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" role="img" aria-label="Tec Toque Segurança Eletrônica">
+  <path d="M32 3 57 12v18c0 15.6-10.5 26.1-25 31C17.5 56.1 7 45.6 7 30V12L32 3Z" fill="#ffffff"/>
+  <g stroke="#D20005" stroke-width="2.7" stroke-linecap="round" fill="none">
+    <path d="M17 39a15 15 0 0 1 30 0"/>
+    <path d="M23 39a9 9 0 0 1 18 0"/>
+    <path d="M29 39a3 3 0 0 1 6 0"/>
+  </g>
+  <circle cx="32" cy="46.5" r="2.4" fill="#D20005"/>
+</svg>

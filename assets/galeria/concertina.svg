@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Concertina de proteção perimetral">
+  <defs>
+    <linearGradient id="fBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#eef0f4"/>
+    </linearGradient>
+    <pattern id="fGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#e3e6ec" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="fGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#D20005" stop-opacity=".14"/><stop offset="1" stop-color="#D20005" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="fMetal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eef1f5"/><stop offset="0.5" stop-color="#aeb5c1"/><stop offset="1" stop-color="#7c8492"/>
+    </linearGradient>
+    <linearGradient id="fWall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3b414a"/><stop offset="1" stop-color="#1c2026"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#fBg)"/>
+  <rect width="800" height="600" fill="url(#fGrid)"/>
+  <circle cx="400" cy="300" r="250" fill="url(#fGlow)"/>
+  <rect x="60" y="420" width="680" height="60" rx="10" fill="url(#fWall)"/>
+  <rect x="60" y="420" width="680" height="14" fill="#4a515b"/>
+  <g stroke="url(#fMetal)" stroke-width="7" fill="none" stroke-linecap="round">
+    <path d="M120 400c40-70 120-70 160 0s120 70 160 0 120-70 160 0 120 70 160 0"/>
+    <path d="M120 340c40-70 120-70 160 0s120 70 160 0 120-70 160 0 120 70 160 0"/>
+    <path d="M120 280c40-70 120-70 160 0s120 70 160 0 120-70 160 0 120 70 160 0"/>
+  </g>
+  <g stroke="#8b93a1" stroke-width="3" fill="none" opacity=".85">
+    <path d="M120 400v6M160 366v40M200 348v76M240 366v40M280 400v6"/>
+    <path d="M440 340v6M480 306v40M520 288v76M560 306v40M600 340v6"/>
+  </g>
+  <rect x="100" y="392" width="26" height="34" rx="6" fill="#D20005"/>
+  <rect x="674" y="392" width="26" height="34" rx="6" fill="#D20005"/>
+  <path d="M256 268l14-14M256 254l14 14" stroke="#D20005" stroke-width="4" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,16 @@
+COLOQUE AQUI OS VÍDEOS DA TEC TOQUE
+====================================
+
+Nomeie os arquivos exatamente assim (formato MP4 / H.264):
+
+  instalacao-camera.mp4
+  monitoramento-24h.mp4
+  automacao-portao.mp4
+
+Assim eles aparecem automaticamente na seção "Galeria > Vídeos".
+
+Enquanto os arquivos não existirem, o site exibe um aviso amigável com
+botão para o WhatsApp (sem quebrar o layout).
+
+Prefira vídeos leves (ideal até ~10 MB, 1280x720) para carregamento rápido.
+Os "posters" (imagem de capa) já estão definidos no index.html.

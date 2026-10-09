@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Cerca elétrica perimetral">
+  <defs>
+    <linearGradient id="gBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#eef0f4"/>
+    </linearGradient>
+    <pattern id="gGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#e3e6ec" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="gGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#D20005" stop-opacity=".14"/><stop offset="1" stop-color="#D20005" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gPost" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dfe3ea"/><stop offset="1" stop-color="#8f96a3"/>
+    </linearGradient>
+    <linearGradient id="gSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eaf1fb"/><stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#gBg)"/>
+  <rect x="0" y="0" width="800" height="360" fill="url(#gSky)"/>
+  <rect width="800" height="600" fill="url(#gGrid)"/>
+  <circle cx="400" cy="240" r="250" fill="url(#gGlow)"/>
+  <rect x="0" y="470" width="800" height="130" fill="#e9ecf1"/>
+  <rect x="0" y="470" width="800" height="10" fill="#d5dae2"/>
+  <g>
+    <rect x="150" y="120" width="26" height="360" rx="10" fill="url(#gPost)"/>
+    <rect x="384" y="120" width="26" height="360" rx="10" fill="url(#gPost)"/>
+    <rect x="618" y="120" width="26" height="360" rx="10" fill="url(#gPost)"/>
+    <rect x="150" y="120" width="26" height="14" fill="#20242b"/>
+    <rect x="384" y="120" width="26" height="14" fill="#20242b"/>
+    <rect x="618" y="120" width="26" height="14" fill="#20242b"/>
+  </g>
+  <g stroke="#2f343c" stroke-width="4" stroke-linecap="round">
+    <path d="M150 190H644"/>
+    <path d="M150 250H644"/>
+    <path d="M150 310H644"/>
+    <path d="M150 370H644"/>
+  </g>
+  <g fill="#D20005">
+    <rect x="138" y="176" width="50" height="28" rx="8"/><rect x="372" y="176" width="50" height="28" rx="8"/><rect x="606" y="176" width="50" height="28" rx="8"/>
+    <rect x="138" y="296" width="50" height="28" rx="8"/><rect x="372" y="296" width="50" height="28" rx="8"/><rect x="606" y="296" width="50" height="28" rx="8"/>
+  </g>
+  <g fill="#3b414a">
+    <rect x="138" y="236" width="50" height="28" rx="8"/><rect x="372" y="236" width="50" height="28" rx="8"/><rect x="606" y="236" width="50" height="28" rx="8"/>
+    <rect x="138" y="356" width="50" height="28" rx="8"/><rect x="372" y="356" width="50" height="28" rx="8"/><rect x="606" y="356" width="50" height="28" rx="8"/>
+  </g>
+  <g transform="translate(500 250)">
+    <circle r="14" fill="#D20005"/>
+    <path d="M-8 0l16 0M0-8l0 16" stroke="#fff" stroke-width="3" stroke-linecap="round" transform="rotate(45)"/>
+  </g>
+</svg>

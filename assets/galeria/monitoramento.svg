@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Central de monitoramento 24 horas">
+  <defs>
+    <linearGradient id="mBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#eef0f4"/>
+    </linearGradient>
+    <pattern id="mGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#e3e6ec" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="mGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#D20005" stop-opacity=".16"/><stop offset="1" stop-color="#D20005" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="mScreen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a1420"/><stop offset="1" stop-color="#12324f"/>
+    </linearGradient>
+    <linearGradient id="mRed" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ED151A"/><stop offset="1" stop-color="#9E0003"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#mBg)"/>
+  <rect width="800" height="600" fill="url(#mGrid)"/>
+  <circle cx="400" cy="300" r="270" fill="url(#mGlow)"/>
+  <rect x="120" y="150" width="560" height="320" rx="18" fill="#1a1e24"/>
+  <rect x="140" y="170" width="520" height="240" rx="10" fill="url(#mScreen)"/>
+  <g opacity=".9">
+    <path d="M170 210h120M170 240h90M170 270h140M170 300h70" stroke="#3f6c93" stroke-width="8" stroke-linecap="round"/>
+    <rect x="330" y="190" width="150" height="120" rx="8" fill="#0d1b2a" stroke="#2c557a" stroke-width="2"/>
+    <path d="M338 300l40-56 28 40 22-30 34 46Z" fill="#1f4a70"/>
+    <rect x="500" y="190" width="140" height="120" rx="8" fill="#0d1b2a" stroke="#2c557a" stroke-width="2"/>
+    <circle cx="570" cy="250" r="42" fill="none" stroke="#2c557a" stroke-width="2"/>
+    <path d="M570 250l24-16" stroke="#4be07a" stroke-width="3"/>
+    <circle cx="570" cy="250" r="5" fill="#4be07a"/>
+    <rect x="330" y="326" width="310" height="60" rx="8" fill="#0d1b2a" stroke="#2c557a" stroke-width="2"/>
+    <path d="M346 370l30-24 26 18 30-30 30 22 30-26 30 30 30-20 30 24 30-28 30 22" fill="none" stroke="#E41217" stroke-width="3"/>
+  </g>
+  <circle cx="680" cy="188" r="8" fill="#E41217"/>
+  <circle cx="680" cy="188" r="8" fill="#E41217" opacity=".5">
+    <animate attributeName="r" values="8;16;8" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values=".5;0;.5" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="160" y="192" font-family="Consolas, monospace" font-size="16" fill="#6fb4e6" letter-spacing="2">MONITORAMENTO 24H</text>
+  <rect x="300" y="486" width="200" height="16" rx="8" fill="#2b3038"/>
+  <rect x="250" y="502" width="300" height="12" rx="6" fill="#3a4049"/>
+  <rect x="140" y="150" width="560" height="26" rx="13" fill="url(#mRed)" opacity=".08"/>
+</svg>
